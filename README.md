@@ -13,7 +13,7 @@ Note that you may use any language you are comfortable in to do the same.
 4. Once you have completed the program - You can create a Pull Request to integrate your contribution into the global remote repository.
 
 Sample: 
-Language: Python
-File Name - Pikachu.py
-File Content - 
+Language: Python\  
+File Name - Pikachu.py\
+File Content - \  
 print('I love Open Source because it helps me collaborate with other pokemons on projects which target a diverse skillset')
