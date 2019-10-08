@@ -5,8 +5,8 @@ A repository to explore the Vast Open Source ecosystem by encouraging developers
 To contribute to this repository, we encourage you to follow the following format - 
 
 1. Make a file following the given format: 
-<YourName>.<fileExtension> //fileExtension can be - cpp, py, c, java depending upon which language you choose to code in
-# Note that you may use any language you are comfortable in to do the same. 
+<YourName>.<fileExtension> (fileExtension can be - cpp, py, c, java depending upon which language you choose to code in)
+Note that you may use any language you are comfortable in to do the same. 
   
 2. Open this file in a code editor of your choice
 3. Make a basic program to print - # What you love about OpenSource.
