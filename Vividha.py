@@ -1,0 +1,1 @@
+print('I love OpenSource because it gives an idea about how a software works')
