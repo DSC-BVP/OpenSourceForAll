@@ -1,0 +1,1 @@
+print("I love OpenSource because I feel strongly that to really do something well, you have to get a lot of people involved.")
