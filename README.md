@@ -49,8 +49,6 @@ $ git clone (paste the url obtained from clicking on "Clone or download" option 
 $ cd OpenSourceForAll
 ```
 
-![screenshot from 2018-10-07 20-20-18](https://user-images.githubusercontent.com/23727056/46583205-92a16a00-ca70-11e8-8437-5455cd21912b.png)
-
 ## Step 7 
 1. Make a file following the given format: 
 <YourName>.<fileExtension> (fileExtension can be - cpp, py, c, java depending upon which language you choose to code in)
