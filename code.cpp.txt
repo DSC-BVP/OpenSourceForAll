@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,c=0;
+    cin>>n;
+    int u=0, v=1;
+    cout<<u<<" "<<v<<" ";
+    for(int i=0; i<=n; i++)
+    {
+
+       c=u+v;
+        if(c>=n)
+       {
+           return 0;
+       }
+       cout<<c<<" ";
+       u=v;
+       v=c;
+    }
+}
