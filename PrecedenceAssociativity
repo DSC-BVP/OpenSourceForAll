@@ -1,0 +1,14 @@
+include <iostream>
+using namespace std;
+int main()
+{
+	int a = 5;
+	int b = 9;
+	int c = 4;
+
+	int d = a*(c/b); //Brackets have the highest precedence.
+	int e = a*c/b;   //if same precedence, we evaluate left to right
+	int f = a/c*b;
+	int g = a/(c*b);
+	cout<<d<<endl<<e<<endl<<f<<endl<<g<<endl;
+}
