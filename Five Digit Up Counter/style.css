@@ -1,0 +1,43 @@
+#container{
+    display:flex;
+    flex-direction:column; 
+    background-color:#00fff361;
+/*     background-size:cover; */
+    height:100vh;
+    width:100vw;
+}
+#container div{
+ 	margin:auto;
+   
+}
+#upper {
+    display:flex;
+    flex-direction:column;
+  	background-image: linear-gradient(-90deg, pink, #0066ff9c);
+    width:80%;
+}
+#upper span{
+    margin: 7% auto;
+    color:white;
+    letter-spacing:2px;
+}
+#upper span form input{
+    margin-left: 10vw;
+}
+#lower{
+    display:flex;
+    height:25%;
+    background-color:grey;
+    width:75%;
+}
+#lower .digit{
+    height:8vh;
+    width:8vw;
+    background-color:white;
+    margin:auto;
+    text-align:center;
+	padding-bottom:10px;
+    font-weight:bold;
+    border-top:2px soild black;
+}
+
