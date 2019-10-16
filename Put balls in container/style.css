@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body>*{
+
+  margin-top: 4rem;
+}
+.ball-container{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  min-height: 3rem;
+  background-color: #425466;
+  width: 100%;
+}
+.ball-container>div{
+  height: 3rem;
+  width: 3rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
