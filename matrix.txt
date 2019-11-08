@@ -1,0 +1,123 @@
+#include <stdio.h>
+
+
+int main()
+{
+    int A[3][3],B[3][3],C[3][3],i,j,n,k;
+    printf("Enter elements of Matrix A:\n");
+    
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            scanf("%d",&A[i][j]);
+        }
+    }
+    
+    printf("Enter elements of Matrix B:\n");
+    
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            scanf("%d",&B[i][j]);
+        }
+    }
+    
+    
+    
+     
+    
+    printf("Enter your choice:\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Lower Triangle(Matrix A)\n5.Upper Triangle(Matrix A)");
+    printf("\n6.Transpose");
+    scanf("%d",&n);
+    
+    switch(n)
+    {
+        case 1: printf("Matrix C( For Addition):\n");
+                
+                for(i=0;i<3;i++)
+                {   
+                    printf("\n");
+                    for(j=0;j<3;j++)
+                    {
+                        C[i][j] = A[i][j] + B[i][j];
+                        printf("%d\t",C[i][j]);
+                    }
+                }
+                break;
+                
+        case 2: printf("Matrix C( For Subtraction):\n");
+        
+                for(i=0;i<3;i++)
+                {   printf("\n");
+                    for(j=0;j<3;j++)
+                   {
+                        C[i][j] = A[i][j] - B[i][j];
+                        printf("%d\t",C[i][j]);
+                   }
+                }
+                break;
+                
+        case 3: printf("Matrix C( For Multiplication):\n");
+                
+                for(i=0;i<3;i++)
+                {   printf("\n");
+                    for(j=0;j<3;j++)
+                    {   C[i][j] = 0;
+                        for(k=0;k<3;k++)
+                        {
+                            C[i][j] = C[i][j] + A[i][k]*B[k][j];
+                        }
+                    printf("%d\t",C[i][j]);
+                    }
+                }
+                break;
+                
+        case 4: printf("Lower Triangle Matrix A:\n");
+                
+                for(i=0;i<3;i++)
+                {   printf("\n");
+                    for(j=0;j<3;j++)
+                    {   if(i>=j)
+                        printf("%d\t",A[i][j]);
+                        else
+                        printf("0\t");
+                    }
+                }
+                break;
+                
+        case 5: printf("Upper Triangle Matrix A:\n");
+                for(i=0;i<3;i++)
+                {   printf("\n");
+                    for(j=0;j<3;j++)
+                    {
+                        if(j>=i)
+                        printf("%d\t",A[i][j]);
+                        else
+                        printf("0\t");
+                    }
+                }
+                break;
+                
+        case 6: printf("Matrix C:Transpose of matrix A:\n");
+         
+                for(i=0;i<3;i++)
+                {   printf("\n");
+                    for(j=0;j<3;j++)
+                    {
+                        C[i][j] = A[j][i];
+                        printf("%d\t",C[i][j]);
+                    }
+                }
+                break;
+                
+        default: printf("Invalid Option!!!");
+        
+    }
+    
+    
+    return 0;
+
+    
+}
