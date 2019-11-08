@@ -1,0 +1,1 @@
+print("Open source is fun.")
